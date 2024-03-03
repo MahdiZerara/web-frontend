@@ -18,9 +18,3 @@ make serve ENVIRONMENT=dev
 ```
 
 4- Open your web browser and navigate to https://localhost:8080 to view your running project.
-
-## How to use project:
-
-1- To retrieve the list of stores 
-
-2- To add a new store 

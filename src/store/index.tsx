@@ -8,7 +8,7 @@ const appSlice = createSlice({
     name: 'app-slice',
     initialState: {
         userInfo: {
-            isLoggedIn: true
+            isLoggedIn: false
         }
     } as AppRootStore,
     reducers: {
