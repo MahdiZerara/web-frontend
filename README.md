@@ -1,4 +1,4 @@
-# Web backend
+# Web Frontend
 
 ## Project local setup:
 
