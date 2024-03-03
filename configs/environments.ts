@@ -11,7 +11,7 @@ export const devConfigs: ConfigurationOptions = {
   NODE_ENV: '"development"',
   NAME: 'My React Application',
   HOST_URL: 'https://localhost:8080',
-  API_ENDPOINT: 'https://localhost:8000/api/'
+  API_ENDPOINT: 'https://localhost:3000'
 };
 
 // Staging environment configurations

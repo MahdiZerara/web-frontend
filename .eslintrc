@@ -3,7 +3,6 @@
     "extends": [
         "airbnb-base",
         "plugin:react/recommended",
-        "plugin:jest/all",
         "plugin:cypress/recommended"
     ],
     "env": {
@@ -17,6 +16,7 @@
     },
     "rules": {
         // Add custom rules below
+        "indent": "off",
         "linebreak-style": "off",
         "import/prefer-default-export": "off",
         "no-use-before-define": "off",
@@ -60,7 +60,7 @@
             }
         ],
         "import/no-extraneous-dependencies": [
-            "error",
+            "warn",
             {
                 "devDependencies": true
             }
