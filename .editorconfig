@@ -1,0 +1,15 @@
+# Top-most EditorConfig file
+root = true
+
+# Ending every file with a new line
+[*]
+end_of_line  = lf
+insert_final_newline = true
+
+# Set default charset
+charset = utf-8
+
+# Indentation
+[*.{js, ts, vue, css, scss, sass, json, html, md, mdx}]
+indent_style = space
+indent_size = 2

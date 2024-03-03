@@ -1,0 +1,5 @@
+# this is the robots.txt file for mysite.com
+
+User-agent: *
+Allow: /
+Crawl-delay: 2

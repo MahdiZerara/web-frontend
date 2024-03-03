@@ -1,0 +1,77 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "airbnb-base",
+        "plugin:react/recommended",
+        "plugin:jest/all",
+        "plugin:cypress/recommended"
+    ],
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        // Add custom rules below
+        "linebreak-style": "off",
+        "import/prefer-default-export": "off",
+        "no-use-before-define": "off",
+        "import/no-useless-path-segments": "off",
+        "object-curly-newline": "off",
+        "operator-linebreak": "off",
+        "implicit-arrow-linebreak": "off",
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "no-param-reassign": [
+            "error",
+            {
+                "props": true,
+                "ignorePropertyModificationsFor": [
+                    "state"
+                ]
+            }
+        ],
+        "no-console": [
+            "warn",
+            {
+                "allow": [
+                    "warn",
+                    "error"
+                ]
+            }
+        ],
+        "max-len": [
+            "error",
+            {
+                "code": 150
+            }
+        ],
+        "import/extensions": [
+            "error",
+            {
+                "js": "never",
+                "ts": "never"
+            }
+        ],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        },
+        "react": {
+            "version": "detect"
+        }
+    }
+}
